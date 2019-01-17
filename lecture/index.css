@@ -1,0 +1,68 @@
+body {
+	height: 100%;
+	width: 100vw;
+	background-color: aqua;
+}
+
+header {
+	background-color: black;
+	width: 100%;
+	height: 100px;
+	padding: 25px 50px 25px 50px;
+}
+
+header > .josh,
+header > .main-nav {
+	background-color: white;
+	height: 100%;
+}
+
+.josh {
+	width: 100px;
+	float: left;
+}
+
+.main-nav {
+	width: 200px;
+	float: right;
+}
+
+.main-container {
+	height: 300px;
+	width: 600px;
+	background: black;
+	margin: 100px auto;
+	padding: 25px 50px;
+}
+
+.box-one,
+.box-two {
+	height: 50px;
+	background: white;
+	margin: 20px auto;
+}
+
+.box-one {
+	width: 500px;
+}
+.box-two {
+	width: 400px;
+}
+
+.button-left,
+.button-right {
+	height: 30px;
+	background: white;
+	width: 180px;
+	border-radius: 20px;
+	display: inline-block;
+}
+
+.button-left {
+	margin-left: 50px;
+	float: left;
+}
+.button-right {
+	margin-right: 50px;
+	float: right;
+}
