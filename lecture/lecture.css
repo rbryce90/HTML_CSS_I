@@ -1,0 +1,58 @@
+body {
+     background-color: grey;
+}
+
+header {
+    height: 100px;
+    background-color: rgb(80, 80, 80);
+    width: 100%;
+    padding: 25px 50px;
+}
+
+.logo, .main-nav{
+    background-color: white;
+    height: 100%;
+}
+.logo {
+    width: 100px;
+    float: left;
+
+}
+.main-nav{
+    width: 200px;
+    float: right;
+}
+section {
+    height: 300px;
+    width: 600px;
+    background-color: rebeccapurple;
+    margin: 0 auto;
+    margin-top: 125px;
+    padding-top: 30px;
+}
+.boxone, .boxtwo{
+    height: 50px;
+    background-color: white;
+    margin: 20px auto;
+}
+.boxone{
+    width: 500px;
+}
+.boxtwo {
+    width: 400px;
+}
+
+.button-left, .button-right {
+    height: 30px;
+    background-color: white;
+    width: 180px;
+    border-radius: 20px;
+}
+.button-left{
+    float: left;
+    margin-left: 100px;
+}
+.button-right{
+    float: right;
+    margin-right: 100px;
+}
